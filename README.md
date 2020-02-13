@@ -11,7 +11,7 @@ I simply ported it to Python, as I had some issues with the original version whe
 java -jar apktool_2.3.3.jar d spotify-lite.apk
 
 ## Mod resources (use directory)
-python ./wearmodder.py spotify-lite/res
+python ./wearmodder.py ./spotify-lite/res
 
 ## Perform additional manual tweaks
 
