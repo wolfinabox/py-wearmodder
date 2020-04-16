@@ -20,4 +20,5 @@ java -jar apktool_2.3.3.jar b spotify-lite
 
 ## Sign
 keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore spotify-lite/dist/spotify-lite.apk alias_name
